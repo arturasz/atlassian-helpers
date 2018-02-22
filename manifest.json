@@ -1,0 +1,18 @@
+{
+  "name": "Jira branch creator",
+  "version": "0.1",
+  "manifest_version" : 2,
+  "description": "Creates branch from jira",
+  "background" : {
+    "scripts" : ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://bitbucket.org/hotjar/*"],
+      "js": ["bitbucket.js"]
+    }
+  ],
+  "browser_action": {
+  },
+  "permissions": ["activeTab"]
+}
