@@ -4,14 +4,14 @@ A life improvement utils for jira, bitbucket and mercurial
 
 ### Features
 
-Clicking on J button in chrome while in jira or bitbucket will create/checkout branch (old branch will be stashed) [requires hg-stash]
-Sync with master button in bitbucket PR, will automatically rename commit message into "JIRA-1337: merged master"
+* Clicking on J button in chrome while in jira or bitbucket will create/checkout branch (old branch will be stashed) [requires hg-stash]
+* Sync with master button in bitbucket PR, will automatically rename commit message into "JIRA-1337: merged master"
 
-hg bb # opens bitbucket branch diff
-hg pr # opens bitbucket create new PR for branch
-hg jira # opens jira ticket by branch name
+* hg bb # opens bitbucket branch diff
+* hg pr # opens bitbucket create new PR for branch
+* hg jira # opens jira ticket by branch name
 
-when commiting to mercurial will automaticaly prepend jira ticket in commit message
+* when commiting to mercurial will automaticaly prepend jira ticket in commit message
 
 
 ### Installing
